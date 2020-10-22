@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+<color name="colorPrimary">#51ABD2</color>
+<color name="colorPrimaryDark">#45b1de</color>
+<color name="colorAccent">#207fa9</color>
+<color name="white">#ffffff</color>
+<color name="background">#f1f7f7</color>
+<color name="background1">#7ea5bc</color>
+<color name="disable_button">#bbbdbf</color>
+<color name="default_indicator_color_selected">#eeee</color>
+<color name="default_indicator_color_unselected">#66eeeeee</color>
+<color name="default_ripple_color">#fafafa</color>
+<!--black transparent-->
+<color name="transparent">#00000000</color>
+
+<color name="black_transparent_80">#cc000000</color>
+<color name="black_transparent_60">#a5000000</color>
+<color name="black_transparent_50">#7e000000</color>
+<color name="black_transparent_45">#80000000</color>
+<color name="black_transparent_40">#61000000</color>
+<color name="black_transparent_25">#44000000</color>
+<color name="black_transparent_22">#3f000000</color>
+<color name="black_transparent_20">#39000000</color>
+<color name="black_transparent_18">#29000000</color>
+<color name="black_transparent_15">#23000000</color>
+<color name="black_transparent_5">#09000000</color>
+<color name="backgroundcolor">#fcfcfc</color>
+<color name="lightgray">#D0C8C8</color>
+<color name="deeppurple">#7c4dff</color>
+<color name="yello">#ffb300</color>
+<color name="green">#00bfa5</color>
+<color name="darkblue">#009446</color>
+<color name="testcolorblue">#152b38</color>
+<color name="pink">#fe104d</color>
+<color name="indicator_color_default">#FFFFFF</color>
+<color name="whatsapp">#2ab200</color>
+
+<color name="black_overlay">#80000000</color>
+
+<color name="graylight">#fafafa</color>
+<color name="primaryDark">#292b3d</color>
+<color name="startblue">#09c6df</color>
+<color name="endblue">#0bcce6</color>
 </resources>

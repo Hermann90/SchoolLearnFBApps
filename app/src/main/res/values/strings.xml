@@ -1,3 +1,485 @@
 <resources>
-    <string name="app_name">SchoolLearnFBApps</string>
+    <string name="app_name">SchoolLearnFB</string>
+    <string name="good_registration">Good registration</string>
+    <string name="error_authentication_canceled"> Authentication Failed </string>
+    <string name="error_no_internet">Internet Connexion Not Available </string>
+    <string name="error_unknown_error">Unknown Error </string>
+
+
+    <string name="login_1">Your Phone Number</string>
+    <string name="login_2">Send Verification Code</string>
+    <string name="login_3">By signing up you agree to the Simplex Point</string>
+    <string name="login_4">Terms of Service </string>
+    <string name="login_5"> \  and  \   </string>
+    <string name="login_6">  Privacy Policy</string>
+    <string name="login_7">Simple</string>
+    <string name="login_8">Business</string>
+
+    <string name="verify_1">Verify</string>
+    <string name="verify_2">We\'ve sent a Code via SMS. Please enter</string>
+    <string name="verify_3">the 6 digit code to verify.</string>
+    <string name="verify_4">Enter 6 Digit Verification Code</string>
+    <string name="verify_5">Verify My Device</string>
+    <string name="notification_code_not_match">Sorry, Code not match Change and try again</string>
+
+
+    <string name="notification_error_ssl_cert_invalid">SSL nofification WebWiew...</string>
+    <string name="notification_error_company_name_1">The title must contain at least 3 characters</string>
+    <string name="notification_error_company_name_2">The title contains a bad character</string>
+    <string name="notification_error_location_exist">This location already exists, please change name</string>
+    <string name="notification_error_address_exist">This address location already exist, please change it</string>
+    <!--    <string name="notification_error_no_access_to_action">You do not have access to do this action</string>-->
+    <string name="notification_error_no_access_to_action">You do not have enough rights to perform this action!</string>
+    <string name="empty_file">This field can not be empty</string>
+    <string name="empty_file_plus">This field must have at least 2 characters</string>
+
+    <string name="notification_normal_phone">Enter normal phone number</string>
+    <string name="notification_verify_phone">Please check your phone phoneNumber</string>
+    <string name="check_file_before_continuing">Please check fields before continuing</string>
+    <string name="message_not_available_offline">Sorry but this feature is not available in offline mode </string>
+
+    <string name="send_image">Sending images...</string>
+    <string name="upload_complete">Upload complete!</string>
+    <string name="upload_error">Upload error:</string>
+    <string name="upload_rescheduled">Upload rescheduled. 4</string>
+    <string name="recycle_click">Recycle Click</string>
+    <string name="loginManager_1">loading...</string>
+    <string name="loginManager_2">We are updating our systems to improve your experience.Please try again later</string>
+    <string name="loginManager_6">We are updating our systems to improve your experience. Please try again later,user,company</string>
+    <string name="failConnexion">There is no internet, we will use local storage !!</string>
+    <string name="failConnexion1">There is no internet, please activate your internet connection to continue!</string>
+    <string name="loginManager_3">Verify My Device</string>
+    <string name="loginManager_8">We tried to connect to the server but it does not respond,Please wait a few minutes and reload.</string>
+    <string name="loginManager_4">Verify My Device</string>
+    <string name="loginManager_5">Verify My Device</string>
+    <string name="access_not_valid">Your access is not valid.</string>
+    <string name="reconect_yourself">please reconnect yourself"</string>
+    <string name="reload">reload</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="feature_not_available">Sorry but this feature is not yet available</string>
+    <string name="notification_get_first_company">Let\'s first get your company details</string>
+    <string name="no_connexion_when_change_company">Please make sure your internet connection is active before changing from Company</string>
+    <string name="no_connexion_when_create_branch">Please make sure your internet connection is active before create new Branch</string>
+    <string name="no_connexion_when_create_company">Please make sure your internet connection is active before create new Company</string>
+    <string name="no_connexion_when_consult_sale_report"> Please make sure your Internet connection is active before viewing the sales reports </string>
+    <string name="no_connexion_when_consult_employee"> Please make sure your Internet connection is active before consulting the Employees </string>
+    <string name="notification_get_first_branch">Let\'s first get your Branch details</string>
+    <string name="no_branch_available">No branch available</string>
+    <string name="create_new_company_home">Create new Company</string>
+    <string name="inventory_for_branch_home">inventory for branch</string>
+    <string name="hi_user">Hi, User</string>
+    <string name="sales_target">sales target</string>
+    <string name="update_sale">Update sale</string>
+    <string name="no_permission_to_change_date">Please, you do not have enough rights to see the content of this page! </string>
+
+
+    <string name="c1">New Sale</string>
+    <string name="c2">Reports</string>
+    <string name="c3">Inventory</string>
+    <string name="c4">Employee</string>
+
+
+    <string name="title_activity_company_create">CompanyCreate</string>
+    <string name="title_create_company">Create a new company</string>
+    <string name="company_name">Name</string>
+    <string name="company_domain">Domain</string>
+    <string name="company_phone">Phone</string>
+    <string name="company_email">Email</string>
+    <string name="save_company">Save</string>
+    <string name="title_activity_list_company">ListCompany</string>
+    <string name="title_list_company">Your Companies</string>
+
+    <string name="title_activity_location_create">LocationCreate</string>
+    <string name="title_create_location">Add New Branch</string>
+    <string name="branch_name">Branch name</string>
+    <string name="branch_name2">Branch name.</string>
+
+    <string name="branch_phone">Branch phone</string>
+    <string name="branch_currency">Branch currency</string>
+    <string name="branch_currency2">Branch currency.</string>
+    <string name="sale_report_this_month">This month</string>
+
+    <string name="branch_address">Branch address</string>
+    <string name="save_branch">Save</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="location_maps">location</string>
+    <string name="location_button_click">MyLocation button clicked</string>
+    <string name="current_location">Current location:</string>
+    <string name="edit_location">Edit branch</string>
+    <string name="title_activity_list_location">ListLocation</string>
+    <string name="title_list_location">Branches</string>
+    <string name="cardview_location_1">Location</string>
+    <string name="cardview_location_2">Address Los app Douala</string>
+    <string name="no_adress">No Address</string>
+    <string name="title_search_location">Search for a branch</string>
+    <string name="Search_location">Search</string>
+    <string name="marker_in_sydney">Marker in Sydney</string>
+    <string name="paris">Paris</string>
+    <string name="ville_name">city</string>
+    <string name="pays_name">country</string>
+    <string name="postal_code">postal code</string>
+    <string name="rue">unit number</string>
+
+    <string name="All">All</string>
+    <string name="Search">Search</string>
+    <string name="Produce">Produce</string>
+    <string name="Films">Films</string>
+    <string name="Foods">Foods</string>
+    <string name="Music">Music</string>
+    <string name="more">More</string>
+    <string name="title_activity_item_create">ItemCreate</string>
+
+    <string name="title_activity_inventory">Inventory</string>
+    <string name="all">All</string>
+    <string name="inventory_for_branch">Inventory for branch</string>
+
+    <string name="the_location">"The Location "</string>
+    <string name="message_no_inventory">" has no inventory. click + to add new items "</string>
+    <string name="the">" to the "</string>
+    <string name="select_branch_from_map_icon">" , or select a different branch from the map icon above "</string>
+
+    <string name="the_item">"This Product "</string>
+    <string name="message_no_discount">" has no discounts. click + to add new discounts "</string>
+    <string name="the_discount">" to this product. "</string>
+
+    <string name="qty">Qty : </string>
+    <string name="custumerAskReceipt">Receipt  :</string>
+    <string name="custumerNoAskReceipt">No receipt  :</string>
+    <string name="custumerAmount">Amount  :</string>
+    <string name="custumerOccurences">Occurences  :</string>
+    <string name="nbr_sellers">Sellers</string>
+    <string name="nbr_branches">Branches</string>
+    <string name="user">User</string>
+    <string name="company">Company</string>
+    <string name="my_inventories">My Inventories</string>
+    <string name="title_search_inventory">Inventory Search</string>
+    <string name="title_activity_inventory_create">inventory_create</string>
+    <string name="title_add_inventory">Add New Inventory</string>
+    <string name="inventory_adress">Enter Adress</string>
+    <string name="inventory_map">Select Map</string>
+    <string name="item_create_button">Save</string>
+    <string name="inventory_description">Description</string>
+    <string name="iventory_name">Name</string>
+    <string name="iventory_name_label">Inventory name</string>
+    <string name="iventory_create_button">Save</string>
+    <string name="saveOk">Inventory saved </string>
+    <string name="noItems">There is no item for this inventory</string>
+    <string name="title_add_new_item">Add New Item</string>
+    <string name="goods">GOODS</string>
+    <string name="service">SERVICE</string>
+    <string name="rental">RENTAL</string>
+    <string name="item_name">Item Name*</string>
+    <string name="put_buyer_name">Buyer Name</string>
+    <string name="input_buyer_name">Buyer Name</string>
+    <string name="buyer_name">Buyer</string>
+    <string name="exemple_item_name">pen, book, etc</string>
+    <string name="item_number">Item Number</string>
+    <string name="exemple_item_number">QR / Barcode / SKU number</string>
+    <string name="item_price">Price*</string>
+    <string name="item_qte">Qty*</string>
+    <string name="item_price2">Price</string>
+    <string name="item_qte2">Qty</string>
+    <string name="date_start">Start date*</string>
+    <string name="date_end">End date*</string>
+    <string name="item_cat">Categories*</string>
+    <string name="item_hint_cat">Select Categories</string>
+    <string name="item_hint_name">Item Title</string>
+    <string name="item_description">Description</string>
+    <string name="item_taxe">Taxable Item</string>
+    <string name="save_item">Save</string>
+    <string name="confirm_created_item">Item was created</string>
+    <string name="reduce_size_image">Your image is very large, please reduce the size</string>
+    <string name="wrong">Something went wrong</string>
+    <string name="title_edit_item">Edit Item</string>
+    <string name="confirm_update_item">Item was updated</string>
+    <string name="confirm_delete_productentity">ProductEntity Delete</string>
+    <string name="title">Title</string>
+    <string name="title_view_item">View Item</string>
+    <string name="no_image_available">No Image available</string>
+    <string name="orange">Orange</string>
+    <string name="range_value">Sliders reflect a range of values along a bar, from which users may select a single value. They are ideal for adjusting settings such as volume, brightness</string>
+    <string name="title_view_category">My Category</string>
+    <string name="title_custum_dialog">Enter new category</string>
+    <string name="hint_category">Category</string>
+    <string name="cancel_custum_category">Cancel</string>
+    <string name="save_custum_category">Save</string>
+    <string name="select_image">Select image</string>
+    <string name="camera">CAMERA</string>
+    <string name="gallery">GALLERY</string>Mew message
+    <string name="new_message">Mew message</string>
+
+    <string name="home">Home</string>
+    <string name="select_company">Select company</string>
+    <string name="create_new_company">Create new company</string>
+    <string name="create_new_branch">Create new branch</string>
+
+
+    <string name="update_sale_date">Enter new date</string>
+
+
+    <string name="profile">Profile</string>
+    <string name="help">Help</string>
+    <string name="login_help">Help ?</string>
+    <string name="logout">Logout</string>
+    <string name="disconnecting_device">Please wait while disconnecting from devices...</string>
+
+
+    <string name="employee_name_notdefined">name is not yet defined</string>
+    <string name="employee_email_notdefined">Email is not yet defined</string>
+    <string name="employees_profile_at">" at "</string>
+    <string name="sales_person_branch_name">Sales person at branch name</string>
+    <string name="employee_profile_company_name">Company name</string>
+    <string name="employee_profile_phone">Phone</string>
+    <string name="employee_name">Employee\'s name</string>
+    <string name="employee_phone">Employee\'s phone</string>
+    <string name="employee_mail">Employee\'s mail</string>
+    <string name="title_employees">Employees</string>
+    <string name="title_add_employee">Add New Employee</string>
+    <string name="saveEmployees">Save </string>
+    <string name="phone_format">Please your phone number should start with +</string>
+    <string name="title_edit_employee">Edit Employee</string>
+    <string name="employees_edited_ok">Employee edited</string>
+    <string name="title_search_employee">Employees Search</string>
+    <string name="no_branch">no branch</string>
+    <string name="the_company">The Company</string>
+    <string name="saveOkay">employees saved </string>
+    <string name="has_no_employee"> has no employees. click + to add new employees to the </string>
+
+
+    <string name="sales_report_summary">SUMMARY</string>
+    <string name="sale_report_summary">Summary</string>
+    <string name="sale_report_receipt">Receipt</string>
+    <string name="checkout_summary">Summary</string>
+    <string name="sale_report_filter_by_seller">Filter By Seller</string>
+
+    <string name="sale_report_filter_by_branch">Filter By Branches</string>
+    <string name="sale_report_filter_best_custumer">Best Customers</string>
+
+    <string name="sale_report_option_title">Select  date </string>
+    <string name="report_save_date">Save</string>
+
+    <string name="sale_report_more">More...</string>
+    <string name="sale_report_title">Sales Report</string>
+    <string name="sale_statistic_title"> Sales Receipt Statistics</string>
+    <string name="sale_report_see_more_detail">SUMMARY</string>
+    <string name="sale_report_to_day"> Today </string>
+    <string name="sale_report_to_day_filter"> Today </string>
+    <string name="other_option">other option</string>
+    <string name="sale_option_select_start_date">"Start date"</string>
+    <string name="sale_option_select_end_date">"End date"</string>
+    <string name="sale_option_select_start">"Start"</string>
+    <string name="sale_option_select_end">"End...."</string>
+    <string name="sale_report_detail_filter_by_seller">Filter by Seller</string>
+    <string name="sale_report_detail_filter_by_branch">Filter by Branch</string>
+    <string name="quantity"> Quantity </string>
+    <string name="date">Date</string>
+    <string name="price">Price</string>
+    <string name="amount"> Amount</string>
+    <string name="amount_report">Amount :</string>
+    <string name="seller">Seller</string>
+    <string name="date_sale">date sale</string>
+    <string name="branches">Branches</string>
+    <string name="select_seller">Select Sellers</string>
+    <string name="select_branches">Select Branches</string>
+    <string name="select_customer_statistic">Customer purchase statistics</string>
+    <string name="articles">Articles</string>
+    <string name="hello">Hello</string>
+    <string name="several_user">You only have one user who has sold, this filter works when you have multiple users. Thank you</string>
+    <string name="not_remove_item">you did not remove this item in your cart.</string>
+    <string name="owner">Owner</string>
+    <string name="cancel">CANCEL</string>
+    <string name="ok_report">OK</string>
+    <string name="cancel_code">cancel</string>
+    <string name="add_cart">Add to Cart</string>
+    <string name="add_cart_to_db">Add Cart to DB</string>
+
+    <string name="title_new_sale">New sale</string>
+
+
+    <string name="not_avalaible_product">this product is not available in stores</string>
+    <string name="out_item_inventory">we are out of items in that inventory.</string>
+    <string name="article_in_cart">This article in to Cart</string>
+    <string name="chect_out_button">CHECK OUT</string>
+    <string name="add_to_cart_button">ADD ITEMS TO CART</string>
+    <string name="enter_amount_tendered">Enter amount tendered</string>
+    <string name="title_cash_tender">CASH TENDER</string>
+    <string name="small_amount">please your amount is small compared to balance</string>
+
+
+    <string name="cash_tender_complete_transaction">COMPLETE TRANSACTION</string>
+
+    <string name="cash_tender_next_button">NEXT</string>
+    <string name="cash_tender_cancel_button">CANCEL</string>
+    <string name="cash">Cash</string>
+    <string name="mobile">Mobile</string>
+    <string name="or">Or</string>
+    <string name="send_a_quote">SEND A QUOTE</string>
+    <string name="checkout_payment_method">Payment Method</string>
+    <string name="checkout_total_amount">Total Amount Due:</string>
+    <string name="checkout_total_item">Total Items:</string>
+    <string name="title_check_out">Check out</string>
+
+
+    <string name="thanks_payment_no_thanks_bouton">NO THANKS</string>
+    <string name="thanks_payment_send_receipt_bouton">SEND RECEIPT</string>
+    <string name="thanks_payment_no_thanks_info">Where should we send your receipt?</string>
+    <string name="thanks_payment_send_receipt_question">Thank You For Your Payment</string>
+
+    <string name="empty_cart">This cart does not contain an article</string>
+    <string name="init_new_sale">Search for an item or scan using the bar code scanner above.</string>
+
+    <string name="cash_tender_change_due">Change Due</string>
+    <string name="cash_tender_balance_due">Balance Due</string>
+
+    <string name="manager">Manager</string>
+    <string name="admin">Admin</string>
+
+
+    <string-array name="type_role">
+        <item>Sales</item>
+        <item>Manager</item>
+        <item>Admin</item>
+    </string-array>
+
+    <string name="user_name">Name*</string>
+    <string name="user_phone">Phone</string>
+    <string name="branch_spinner">Branch</string>
+    <string name="role_spinner">Role*</string>
+    <!--<string name="image_load"> </string>-->
+    <string name="user_email">Email</string>
+    <string name="user_create_button">SUBMIT</string>
+
+
+    <string name="title_activity_role">Role</string>
+
+    <string name="title_activity_role_create">Role_create</string>
+    <string name="title_activity_new_sales">NewSales</string>
+
+
+    <string name="item_already_to_cart">This item is already in this Cart</string>
+    <string name="item_not_found"> The item wasn\'t found.</string>
+
+
+    <string name="edit_info_employee">you wish to edit the information of an employee</string>
+    <string name="login_hint"> 234 567 895</string>
+    <string name="edit_item_description"> you want to edit this item</string>
+    <string name="back_from_inventory"> you want to return from Inventory</string>
+    <string name="image_select_currency"> You want to select the currency</string>
+
+
+    <!--non inclut dans le fichier Swaili-->
+    <string name="branch_description"> Enter a name for your location</string>
+    <string name="currency_description"> Enter a name for your Currency </string>
+    <string name="prfil_back"> Back to home </string>
+
+    <string name="app_name_flag">ListDialogExample</string>
+    <!-- Order is important here: -->
+    <string-array name="country_names">
+        <item>+237 Cameroon</item>
+        <item>+255 Tanzania</item>
+        <item>+1 Canada</item>
+        <item>\u00A0\u00A0+1 United States"</item>
+        <item>xx Default</item>
+
+    </string-array>
+
+    <string-array name="country_codes">
+        <item>237</item>
+        <item>255</item>
+        <item>1</item>
+        <item>1</item>
+        <item>xx</item>
+    </string-array>
+
+    <string-array name="country_flags">
+        <item>@drawable/cameroun</item>
+        <item>@drawable/tanzanie</item>
+        <item>@drawable/canada</item>
+        <item>@drawable/usa1</item>
+        <item>@drawable/no_country_code</item>
+    </string-array>
+
+    <string-array name="my_string_array">
+        <item>dollar $</item>
+        <item>dollar CAD</item>
+        <item>franc FCFA</item>
+        <item>shilling TZS</item>
+        <item>euro €</item>
+        <item>livre £</item>
+    </string-array>
+
+    <string name="upload_started">Upload started ...</string>
+    <string name="confirmation_message">Do you really want to delete this employee?</string>
+    <string name="confirmation_message_delete">Do you really want to delete this Discount?</string>
+    <string name="bad_role">You do not have enough rights to delete an employee.</string>
+    <string name="delete">Delete Employee</string>
+    <string name="same_name">This company name already exists, please enter another name!</string>
+    <string name="gps_network_not_enabled_first">GPS network not activated .</string>
+    <string name="gps_network_not_enabled_second">Do you want to open the</string>
+    <string name="gps_network_not_enabled_three"><b> LOCATION SETTINGS </b></string>
+    <string name="gps_network_not_enabled_four">to activate the location?</string>
+    <string name="cancel_btn_gps">CANCEL</string>
+    <string name="open_location_settings">ACTIVATE</string>
+    <string name="alert_dialog_title"> Activate or not the GPS</string>
+    <string name="ill_date_end">  The start date is greater than the end date! Enter a good end date!</string>
+    <string name="ill_date_currentDate">  This day has not arrived yet!</string>
+    <string name="null_date_start">  The start date is null,complete!</string>
+    <string name="equal_date">  The start date and end date are equal!change this date. </string>
+    <string name="empty_field">" Complete the empty field!"</string>
+    <string name="other_option1">other_option1</string>
+    <string name="message_no_inventory_offline">"does not have an inventory and you are offline! Inventory creation service only available in mode  login then Please activate your connection or wait for the return of the connection to continue your actions!  does not have an inventory and you are offline! Inventory creation service only available in mode  login then Please activate your connection or wait for the return of the connection to continue your actions!  "</string>
+
+    <string name="Sale_date_update">Sale date</string>
+    <string name="earlier_date">  please, this date must be earlier than today date !</string>
+    <string name="change_date_title">Update date</string>
+    <string name="change_sale_date">Enter a new date</string>
+
+    <string name="select_date">Select date</string>
+    <string name="select_time">Select time</string>
+    <string name="sales_report_one_branch">You have the sales report of a single branch, this summary is displayed when you have multiple branches. Thank you very much!</string>
+    <string name="several_branch">You have made sales in only one branch, these reports are displayed above! This button is available when you have made sales in at least 2 different branches of your company. Thank you very much!</string>
+
+    <string name="hint_price">price</string>
+    <string name="hint_quantity">quantity</string>
+    <string name="title_view_discount">Discount</string>
+    <string name="title_custom_discount">Enter new discount</string>
+
+    <string name="discount_qty">Qty :</string>
+    <string name="discount_from">from</string>
+    <string name="discount_price">Price :</string>
+    <string name="discount_is">is</string>
+
+    <string name="discount_exist_price">this price exist,please enter a new price!</string>
+    <string name="discount_exist_quantity">this quantity exist,please enter a new quantity</string>
+    <string name="discount_exist_quantityprice">this quantity and this price exist,please enter a new" +
+                                        " quantity and a new price</string>
+    <string name="discount_empty_file">Please complete the empty field!</string>
+    <string name="discount_comparaison_price">Please complete the discount price can\'t be higher than unit price!</string>
+    <string name="discount_condition">Please fill in the unit price first! </string>
+
+    <string name="item_discount">Discounts</string>
+    <string name="item_hint_dis">Create Discounts</string>
+    <string name="checkout_total_amount_with_discount">Total amount with discount</string>
+    <string name="you_saved">You Saved</string>
+    <string name="stats_report">Statistics</string>
+    <string name="stats_report_recipes">Recipes</string>
+    <string name="edit_employee_number">This number had already been assigned to a user in database, please enter a another number  !</string>
+    <string name="number_person_askReceipt">Number of persons having requested a receipt</string>
+    <string name="number_person_noAskReceipt">Number of persons who did not request a receipt</string>
+    <string name="not_available">This feature is not yet available!</string>
+    <string name="custumerAskReceipt1">Receipt</string>
+    <string name="custumerNoAskReceipt2">No receipt</string>
+    <string name="sale_report_custumer_transaction">Customer Transaction</string>
+
+    <string name="select_branch">Select branch</string>
+    <string name="total_amount">Total amount</string>
+    <string name="number">Occurrences</string>
+
+
 </resources>

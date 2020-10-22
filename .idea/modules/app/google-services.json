@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "285290206522",
+    "firebase_url": "https://schoollearnfbapps-8843e.firebaseio.com",
+    "project_id": "schoollearnfbapps-8843e",
+    "storage_bucket": "schoollearnfbapps-8843e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285290206522:android:c9c22c1aa472014a9b6c03",
+        "android_client_info": {
+          "package_name": "com.hermannproject.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285290206522-v3msqo3039oef4k3lovt0q1dp4d7b8u9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hermannproject.com",
+            "certificate_hash": "0c5a0c14f42358085a52165d2fbde102fbb176a5"
+          }
+        },
+        {
+          "client_id": "285290206522-8pusm5j89kkeqobgtblbfvsutc3378ug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz8vvV-elZZT7cB7XRhYqheaTyOFHYbF8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285290206522-8pusm5j89kkeqobgtblbfvsutc3378ug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
